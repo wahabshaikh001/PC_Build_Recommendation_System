@@ -1,12 +1,15 @@
 import os
 import pandas as pd
 
-def load_datasets(dataset_dir="DATASET"):
+def load_datasets(dataset_dir=None):
     """
     Loads CPU, GPU, RAM, Motherboard, Storage, and PSU datasets from the dataset directory.
     Uses case-insensitive substring matching to locate files for each component,
     prioritizing .csv format and falling back to .xlsx if necessary.
     """
+    if dataset_dir is None:
+        dataset_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "DATASET")
+        
     datasets = {}
     
     if not os.path.exists(dataset_dir):

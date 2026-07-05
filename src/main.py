@@ -104,14 +104,17 @@ def main():
     print("      AI-BASED PC BUILD RECOMMENDATION SYSTEM (CLI)      ")
     print("=" * 60)
     
+    # Determine project root path
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    
     # Check if models exist
     required_files = [
-        "models/linear_regression.pkl",
-        "models/random_forest.pkl",
-        "models/xgboost.pkl",
-        "models/scaler.pkl",
-        "models/label_encoders.pkl",
-        "models/max_scores.pkl"
+        os.path.join(project_root, "models", "linear_regression.pkl"),
+        os.path.join(project_root, "models", "random_forest.pkl"),
+        os.path.join(project_root, "models", "xgboost.pkl"),
+        os.path.join(project_root, "models", "scaler.pkl"),
+        os.path.join(project_root, "models", "label_encoders.pkl"),
+        os.path.join(project_root, "models", "max_scores.pkl")
     ]
     for rf in required_files:
         if not os.path.exists(rf):
@@ -151,13 +154,13 @@ def main():
     datasets = add_scores_to_datasets(datasets)
     
     # Load scaling and models
-    max_scores = joblib.load("models/max_scores.pkl")
-    scaler = joblib.load("models/scaler.pkl")
-    model_lr = joblib.load("models/linear_regression.pkl")
-    model_rf = joblib.load("models/random_forest.pkl")
-    model_xgb = joblib.load("models/xgboost.pkl")
-    model_best = joblib.load("models/best_model.pkl")
-    best_model_info = joblib.load("models/best_model_info.pkl")
+    max_scores = joblib.load(os.path.join(project_root, "models", "max_scores.pkl"))
+    scaler = joblib.load(os.path.join(project_root, "models", "scaler.pkl"))
+    model_lr = joblib.load(os.path.join(project_root, "models", "linear_regression.pkl"))
+    model_rf = joblib.load(os.path.join(project_root, "models", "random_forest.pkl"))
+    model_xgb = joblib.load(os.path.join(project_root, "models", "xgboost.pkl"))
+    model_best = joblib.load(os.path.join(project_root, "models", "best_model.pkl"))
+    best_model_info = joblib.load(os.path.join(project_root, "models", "best_model_info.pkl"))
     best_model_name = best_model_info.get('best_model_name', 'XGBoost Regressor')
     
     # 2. Get budgets for Lower, Medium, Best Grades

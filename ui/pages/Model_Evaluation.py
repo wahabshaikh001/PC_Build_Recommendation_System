@@ -26,11 +26,17 @@ def main():
     st.title("Model Evaluation")
     st.write("Compare the accuracy metrics and feature importances of the trained Machine Learning models.")
     
+    # Determine project root path
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    
     # Check if files exist
     required_files = [
-        "models/synthetic_builds.csv", "models/scaler.pkl",
-        "models/linear_regression.pkl", "models/random_forest.pkl", "models/xgboost.pkl",
-        "models/best_model_info.pkl"
+        os.path.join(project_root, "models", "synthetic_builds.csv"),
+        os.path.join(project_root, "models", "scaler.pkl"),
+        os.path.join(project_root, "models", "linear_regression.pkl"),
+        os.path.join(project_root, "models", "random_forest.pkl"),
+        os.path.join(project_root, "models", "xgboost.pkl"),
+        os.path.join(project_root, "models", "best_model_info.pkl")
     ]
     for rf in required_files:
         if not os.path.exists(rf):
@@ -38,7 +44,7 @@ def main():
             st.stop()
             
     # Load dataset & split (same random state 42 as training pipeline)
-    df_builds = pd.read_csv("models/synthetic_builds.csv")
+    df_builds = pd.read_csv(os.path.join(project_root, "models", "synthetic_builds.csv"))
     features = ['total_cost', 'total_power', 'cpu_score', 'gpu_score', 'ram_score', 
                 'storage_score', 'psu_score', 'purpose_encoded', 'compatibility', 'budget_difference']
     
@@ -48,11 +54,11 @@ def main():
     _, X_test, _, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     
     # Load scaling & models
-    scaler = joblib.load("models/scaler.pkl")
-    model_lr = joblib.load("models/linear_regression.pkl")
-    model_rf = joblib.load("models/random_forest.pkl")
-    model_xgb = joblib.load("models/xgboost.pkl")
-    best_model_info = joblib.load("models/best_model_info.pkl")
+    scaler = joblib.load(os.path.join(project_root, "models", "scaler.pkl"))
+    model_lr = joblib.load(os.path.join(project_root, "models", "linear_regression.pkl"))
+    model_rf = joblib.load(os.path.join(project_root, "models", "random_forest.pkl"))
+    model_xgb = joblib.load(os.path.join(project_root, "models", "xgboost.pkl"))
+    best_model_info = joblib.load(os.path.join(project_root, "models", "best_model_info.pkl"))
     best_model_name = best_model_info.get('best_model_name', 'XGBoost')
     
     # Scale test set

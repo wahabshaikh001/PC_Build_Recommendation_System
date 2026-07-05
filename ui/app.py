@@ -86,10 +86,15 @@ def render_home():
         else:
             with st.spinner("Running similarity search and compatibility solver..."):
                 try:
+                    # Determine project root path
+                    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+                    
                     # 1. Check if model files exist
                     required_files = [
-                        "models/scaler.pkl", "models/best_model.pkl", 
-                        "models/best_model_info.pkl", "models/max_scores.pkl"
+                        os.path.join(project_root, "models", "scaler.pkl"),
+                        os.path.join(project_root, "models", "best_model.pkl"),
+                        os.path.join(project_root, "models", "best_model_info.pkl"),
+                        os.path.join(project_root, "models", "max_scores.pkl")
                     ]
                     for f in required_files:
                         if not os.path.exists(f):
@@ -100,10 +105,10 @@ def render_home():
                     datasets = get_cached_datasets()
                     
                     # 3. Load model parameters
-                    max_scores = joblib.load("models/max_scores.pkl")
-                    scaler = joblib.load("models/scaler.pkl")
-                    model_best = joblib.load("models/best_model.pkl")
-                    best_model_info = joblib.load("models/best_model_info.pkl")
+                    max_scores = joblib.load(os.path.join(project_root, "models", "max_scores.pkl"))
+                    scaler = joblib.load(os.path.join(project_root, "models", "scaler.pkl"))
+                    model_best = joblib.load(os.path.join(project_root, "models", "best_model.pkl"))
+                    best_model_info = joblib.load(os.path.join(project_root, "models", "best_model_info.pkl"))
                     best_model_name = best_model_info.get('best_model_name', 'XGBoost')
                     
                     # 4. Target Budgets

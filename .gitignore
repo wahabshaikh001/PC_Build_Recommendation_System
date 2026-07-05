@@ -21,7 +21,7 @@ Thumbs.db
 desktop.ini
 
 # Large model files (regenerate via: python train_models.py)
-models/random_forest.pkl
+# models/random_forest.pkl (tracked for Streamlit Cloud deployment)
 
 # Scratch / test scripts
 scratch/
