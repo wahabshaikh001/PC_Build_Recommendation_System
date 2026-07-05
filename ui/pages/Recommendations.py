@@ -77,7 +77,7 @@ def main():
     if 'recommendations' not in st.session_state:
         st.warning("No recommendation data found. Please set your preferences on the Home Page first.")
         if st.button("Back to Home"):
-            st.switch_page("home")
+            st.switch_page("app.py")
         st.stop()
         
     recommendations = st.session_state['recommendations']
@@ -92,7 +92,7 @@ def main():
     if recommended_grade is None or not recommendations:
         st.error("Could not find any compatible configurations for your budget.")
         if st.button("Back to Home"):
-            st.switch_page("home")
+            st.switch_page("app.py")
         st.stop()
 
     # Three Tier columns
