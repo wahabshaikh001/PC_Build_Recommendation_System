@@ -167,6 +167,7 @@ def render_home():
 
 # Navigation Definition
 home_page = st.Page(render_home, title="Home", url_path="home", default=True)
+st.session_state['home_page'] = home_page
 
 pg = st.navigation([home_page, recs_page, eval_page, insights_page])
 pg.run()
