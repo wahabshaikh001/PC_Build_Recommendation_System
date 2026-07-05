@@ -1,0 +1,361 @@
+wattage,efficiency_rating,modular,price
+300,80 Plus,No,29.99
+300,80 Plus,Yes,39.99
+300,80 Plus Bronze,No,34.99
+300,80 Plus Bronze,Yes,44.99
+300,80 Plus Silver,No,39.99
+300,80 Plus Silver,Yes,49.99
+300,80 Plus Gold,No,49.99
+300,80 Plus Gold,Yes,59.99
+300,80 Plus Platinum,No,69.99
+300,80 Plus Platinum,Yes,79.99
+300,80 Plus Titanium,No,89.99
+300,80 Plus Titanium,Yes,99.99
+350,80 Plus,No,34.99
+350,80 Plus,Yes,44.99
+350,80 Plus Bronze,No,39.99
+350,80 Plus Bronze,Yes,49.99
+350,80 Plus Silver,No,44.99
+350,80 Plus Silver,Yes,54.99
+350,80 Plus Gold,No,54.99
+350,80 Plus Gold,Yes,64.99
+350,80 Plus Platinum,No,74.99
+350,80 Plus Platinum,Yes,84.99
+350,80 Plus Titanium,No,94.99
+350,80 Plus Titanium,Yes,104.99
+400,80 Plus,No,39.99
+400,80 Plus,Yes,49.99
+400,80 Plus Bronze,No,44.99
+400,80 Plus Bronze,Yes,54.99
+400,80 Plus Silver,No,49.99
+400,80 Plus Silver,Yes,59.99
+400,80 Plus Gold,No,59.99
+400,80 Plus Gold,Yes,69.99
+400,80 Plus Platinum,No,79.99
+400,80 Plus Platinum,Yes,89.99
+400,80 Plus Titanium,No,99.99
+400,80 Plus Titanium,Yes,109.99
+450,80 Plus,No,44.99
+450,80 Plus,Yes,54.99
+450,80 Plus Bronze,No,49.99
+450,80 Plus Bronze,Yes,59.99
+450,80 Plus Silver,No,54.99
+450,80 Plus Silver,Yes,64.99
+450,80 Plus Gold,No,64.99
+450,80 Plus Gold,Yes,74.99
+450,80 Plus Platinum,No,84.99
+450,80 Plus Platinum,Yes,94.99
+450,80 Plus Titanium,No,104.99
+450,80 Plus Titanium,Yes,114.99
+500,80 Plus,No,49.99
+500,80 Plus,Yes,59.99
+500,80 Plus Bronze,No,54.99
+500,80 Plus Bronze,Yes,64.99
+500,80 Plus Silver,No,59.99
+500,80 Plus Silver,Yes,69.99
+500,80 Plus Gold,No,69.99
+500,80 Plus Gold,Yes,79.99
+500,80 Plus Platinum,No,89.99
+500,80 Plus Platinum,Yes,99.99
+500,80 Plus Titanium,No,109.99
+500,80 Plus Titanium,Yes,119.99
+550,80 Plus,No,54.99
+550,80 Plus,Yes,64.99
+550,80 Plus Bronze,No,59.99
+550,80 Plus Bronze,Yes,69.99
+550,80 Plus Silver,No,64.99
+550,80 Plus Silver,Yes,74.99
+550,80 Plus Gold,No,74.99
+550,80 Plus Gold,Yes,84.99
+550,80 Plus Platinum,No,94.99
+550,80 Plus Platinum,Yes,104.99
+550,80 Plus Titanium,No,114.99
+550,80 Plus Titanium,Yes,124.99
+600,80 Plus,No,59.99
+600,80 Plus,Yes,69.99
+600,80 Plus Bronze,No,64.99
+600,80 Plus Bronze,Yes,74.99
+600,80 Plus Silver,No,69.99
+600,80 Plus Silver,Yes,79.99
+600,80 Plus Gold,No,79.99
+600,80 Plus Gold,Yes,89.99
+600,80 Plus Platinum,No,99.99
+600,80 Plus Platinum,Yes,109.99
+600,80 Plus Titanium,No,119.99
+600,80 Plus Titanium,Yes,129.99
+650,80 Plus,No,64.99
+650,80 Plus,Yes,74.99
+650,80 Plus Bronze,No,69.99
+650,80 Plus Bronze,Yes,79.99
+650,80 Plus Silver,No,74.99
+650,80 Plus Silver,Yes,84.99
+650,80 Plus Gold,No,84.99
+650,80 Plus Gold,Yes,94.99
+650,80 Plus Platinum,No,104.99
+650,80 Plus Platinum,Yes,114.99
+650,80 Plus Titanium,No,124.99
+650,80 Plus Titanium,Yes,134.99
+700,80 Plus,No,69.99
+700,80 Plus,Yes,79.99
+700,80 Plus Bronze,No,74.99
+700,80 Plus Bronze,Yes,84.99
+700,80 Plus Silver,No,79.99
+700,80 Plus Silver,Yes,89.99
+700,80 Plus Gold,No,89.99
+700,80 Plus Gold,Yes,99.99
+700,80 Plus Platinum,No,109.99
+700,80 Plus Platinum,Yes,119.99
+700,80 Plus Titanium,No,129.99
+700,80 Plus Titanium,Yes,139.99
+750,80 Plus,No,74.99
+750,80 Plus,Yes,84.99
+750,80 Plus Bronze,No,79.99
+750,80 Plus Bronze,Yes,89.99
+750,80 Plus Silver,No,84.99
+750,80 Plus Silver,Yes,94.99
+750,80 Plus Gold,No,94.99
+750,80 Plus Gold,Yes,104.99
+750,80 Plus Platinum,No,114.99
+750,80 Plus Platinum,Yes,124.99
+750,80 Plus Titanium,No,134.99
+750,80 Plus Titanium,Yes,144.99
+800,80 Plus,No,79.99
+800,80 Plus,Yes,89.99
+800,80 Plus Bronze,No,84.99
+800,80 Plus Bronze,Yes,94.99
+800,80 Plus Silver,No,89.99
+800,80 Plus Silver,Yes,99.99
+800,80 Plus Gold,No,99.99
+800,80 Plus Gold,Yes,109.99
+800,80 Plus Platinum,No,119.99
+800,80 Plus Platinum,Yes,129.99
+800,80 Plus Titanium,No,139.99
+800,80 Plus Titanium,Yes,149.99
+850,80 Plus,No,84.99
+850,80 Plus,Yes,94.99
+850,80 Plus Bronze,No,89.99
+850,80 Plus Bronze,Yes,99.99
+850,80 Plus Silver,No,94.99
+850,80 Plus Silver,Yes,104.99
+850,80 Plus Gold,No,104.99
+850,80 Plus Gold,Yes,114.99
+850,80 Plus Platinum,No,124.99
+850,80 Plus Platinum,Yes,134.99
+850,80 Plus Titanium,No,144.99
+850,80 Plus Titanium,Yes,154.99
+900,80 Plus,No,89.99
+900,80 Plus,Yes,99.99
+900,80 Plus Bronze,No,94.99
+900,80 Plus Bronze,Yes,104.99
+900,80 Plus Silver,No,99.99
+900,80 Plus Silver,Yes,109.99
+900,80 Plus Gold,No,109.99
+900,80 Plus Gold,Yes,119.99
+900,80 Plus Platinum,No,129.99
+900,80 Plus Platinum,Yes,139.99
+900,80 Plus Titanium,No,149.99
+900,80 Plus Titanium,Yes,159.99
+950,80 Plus,No,94.99
+950,80 Plus,Yes,104.99
+950,80 Plus Bronze,No,99.99
+950,80 Plus Bronze,Yes,109.99
+950,80 Plus Silver,No,104.99
+950,80 Plus Silver,Yes,114.99
+950,80 Plus Gold,No,114.99
+950,80 Plus Gold,Yes,124.99
+950,80 Plus Platinum,No,134.99
+950,80 Plus Platinum,Yes,144.99
+950,80 Plus Titanium,No,154.99
+950,80 Plus Titanium,Yes,164.99
+1000,80 Plus,No,99.99
+1000,80 Plus,Yes,109.99
+1000,80 Plus Bronze,No,104.99
+1000,80 Plus Bronze,Yes,114.99
+1000,80 Plus Silver,No,109.99
+1000,80 Plus Silver,Yes,119.99
+1000,80 Plus Gold,No,119.99
+1000,80 Plus Gold,Yes,129.99
+1000,80 Plus Platinum,No,139.99
+1000,80 Plus Platinum,Yes,149.99
+1000,80 Plus Titanium,No,159.99
+1000,80 Plus Titanium,Yes,169.99
+1050,80 Plus,No,104.99
+1050,80 Plus,Yes,114.99
+1050,80 Plus Bronze,No,109.99
+1050,80 Plus Bronze,Yes,119.99
+1050,80 Plus Silver,No,114.99
+1050,80 Plus Silver,Yes,124.99
+1050,80 Plus Gold,No,124.99
+1050,80 Plus Gold,Yes,134.99
+1050,80 Plus Platinum,No,144.99
+1050,80 Plus Platinum,Yes,154.99
+1050,80 Plus Titanium,No,164.99
+1050,80 Plus Titanium,Yes,174.99
+1100,80 Plus,No,109.99
+1100,80 Plus,Yes,119.99
+1100,80 Plus Bronze,No,114.99
+1100,80 Plus Bronze,Yes,124.99
+1100,80 Plus Silver,No,119.99
+1100,80 Plus Silver,Yes,129.99
+1100,80 Plus Gold,No,129.99
+1100,80 Plus Gold,Yes,139.99
+1100,80 Plus Platinum,No,149.99
+1100,80 Plus Platinum,Yes,159.99
+1100,80 Plus Titanium,No,169.99
+1100,80 Plus Titanium,Yes,179.99
+1150,80 Plus,No,114.99
+1150,80 Plus,Yes,124.99
+1150,80 Plus Bronze,No,119.99
+1150,80 Plus Bronze,Yes,129.99
+1150,80 Plus Silver,No,124.99
+1150,80 Plus Silver,Yes,134.99
+1150,80 Plus Gold,No,134.99
+1150,80 Plus Gold,Yes,144.99
+1150,80 Plus Platinum,No,154.99
+1150,80 Plus Platinum,Yes,164.99
+1150,80 Plus Titanium,No,174.99
+1150,80 Plus Titanium,Yes,184.99
+1200,80 Plus,No,119.99
+1200,80 Plus,Yes,129.99
+1200,80 Plus Bronze,No,124.99
+1200,80 Plus Bronze,Yes,134.99
+1200,80 Plus Silver,No,129.99
+1200,80 Plus Silver,Yes,139.99
+1200,80 Plus Gold,No,139.99
+1200,80 Plus Gold,Yes,149.99
+1200,80 Plus Platinum,No,159.99
+1200,80 Plus Platinum,Yes,169.99
+1200,80 Plus Titanium,No,179.99
+1200,80 Plus Titanium,Yes,189.99
+1250,80 Plus,No,124.99
+1250,80 Plus,Yes,134.99
+1250,80 Plus Bronze,No,129.99
+1250,80 Plus Bronze,Yes,139.99
+1250,80 Plus Silver,No,134.99
+1250,80 Plus Silver,Yes,144.99
+1250,80 Plus Gold,No,144.99
+1250,80 Plus Gold,Yes,154.99
+1250,80 Plus Platinum,No,164.99
+1250,80 Plus Platinum,Yes,174.99
+1250,80 Plus Titanium,No,184.99
+1250,80 Plus Titanium,Yes,194.99
+1300,80 Plus,No,129.99
+1300,80 Plus,Yes,139.99
+1300,80 Plus Bronze,No,134.99
+1300,80 Plus Bronze,Yes,144.99
+1300,80 Plus Silver,No,139.99
+1300,80 Plus Silver,Yes,149.99
+1300,80 Plus Gold,No,149.99
+1300,80 Plus Gold,Yes,159.99
+1300,80 Plus Platinum,No,169.99
+1300,80 Plus Platinum,Yes,179.99
+1300,80 Plus Titanium,No,189.99
+1300,80 Plus Titanium,Yes,199.99
+1350,80 Plus,No,134.99
+1350,80 Plus,Yes,144.99
+1350,80 Plus Bronze,No,139.99
+1350,80 Plus Bronze,Yes,149.99
+1350,80 Plus Silver,No,144.99
+1350,80 Plus Silver,Yes,154.99
+1350,80 Plus Gold,No,154.99
+1350,80 Plus Gold,Yes,164.99
+1350,80 Plus Platinum,No,174.99
+1350,80 Plus Platinum,Yes,184.99
+1350,80 Plus Titanium,No,194.99
+1350,80 Plus Titanium,Yes,204.99
+1400,80 Plus,No,139.99
+1400,80 Plus,Yes,149.99
+1400,80 Plus Bronze,No,144.99
+1400,80 Plus Bronze,Yes,154.99
+1400,80 Plus Silver,No,149.99
+1400,80 Plus Silver,Yes,159.99
+1400,80 Plus Gold,No,159.99
+1400,80 Plus Gold,Yes,169.99
+1400,80 Plus Platinum,No,179.99
+1400,80 Plus Platinum,Yes,189.99
+1400,80 Plus Titanium,No,199.99
+1400,80 Plus Titanium,Yes,209.99
+1450,80 Plus,No,144.99
+1450,80 Plus,Yes,154.99
+1450,80 Plus Bronze,No,149.99
+1450,80 Plus Bronze,Yes,159.99
+1450,80 Plus Silver,No,154.99
+1450,80 Plus Silver,Yes,164.99
+1450,80 Plus Gold,No,164.99
+1450,80 Plus Gold,Yes,174.99
+1450,80 Plus Platinum,No,184.99
+1450,80 Plus Platinum,Yes,194.99
+1450,80 Plus Titanium,No,204.99
+1450,80 Plus Titanium,Yes,214.99
+1500,80 Plus,No,149.99
+1500,80 Plus,Yes,159.99
+1500,80 Plus Bronze,No,154.99
+1500,80 Plus Bronze,Yes,164.99
+1500,80 Plus Silver,No,159.99
+1500,80 Plus Silver,Yes,169.99
+1500,80 Plus Gold,No,169.99
+1500,80 Plus Gold,Yes,179.99
+1500,80 Plus Platinum,No,189.99
+1500,80 Plus Platinum,Yes,199.99
+1500,80 Plus Titanium,No,209.99
+1500,80 Plus Titanium,Yes,219.99
+1600,80 Plus,No,169.99
+1600,80 Plus,Yes,179.99
+1600,80 Plus Bronze,No,174.99
+1600,80 Plus Bronze,Yes,184.99
+1600,80 Plus Silver,No,179.99
+1600,80 Plus Silver,Yes,189.99
+1600,80 Plus Gold,No,189.99
+1600,80 Plus Gold,Yes,199.99
+1600,80 Plus Platinum,No,209.99
+1600,80 Plus Platinum,Yes,219.99
+1600,80 Plus Titanium,No,229.99
+1600,80 Plus Titanium,Yes,239.99
+1700,80 Plus,No,189.99
+1700,80 Plus,Yes,199.99
+1700,80 Plus Bronze,No,194.99
+1700,80 Plus Bronze,Yes,204.99
+1700,80 Plus Silver,No,199.99
+1700,80 Plus Silver,Yes,209.99
+1700,80 Plus Gold,No,209.99
+1700,80 Plus Gold,Yes,219.99
+1700,80 Plus Platinum,No,229.99
+1700,80 Plus Platinum,Yes,239.99
+1700,80 Plus Titanium,No,249.99
+1700,80 Plus Titanium,Yes,259.99
+1800,80 Plus,No,209.99
+1800,80 Plus,Yes,219.99
+1800,80 Plus Bronze,No,214.99
+1800,80 Plus Bronze,Yes,224.99
+1800,80 Plus Silver,No,219.99
+1800,80 Plus Silver,Yes,229.99
+1800,80 Plus Gold,No,229.99
+1800,80 Plus Gold,Yes,239.99
+1800,80 Plus Platinum,No,249.99
+1800,80 Plus Platinum,Yes,259.99
+1800,80 Plus Titanium,No,269.99
+1800,80 Plus Titanium,Yes,279.99
+1900,80 Plus,No,229.99
+1900,80 Plus,Yes,239.99
+1900,80 Plus Bronze,No,234.99
+1900,80 Plus Bronze,Yes,244.99
+1900,80 Plus Silver,No,239.99
+1900,80 Plus Silver,Yes,249.99
+1900,80 Plus Gold,No,249.99
+1900,80 Plus Gold,Yes,259.99
+1900,80 Plus Platinum,No,269.99
+1900,80 Plus Platinum,Yes,279.99
+1900,80 Plus Titanium,No,289.99
+1900,80 Plus Titanium,Yes,299.99
+2000,80 Plus,No,249.99
+2000,80 Plus,Yes,259.99
+2000,80 Plus Bronze,No,254.99
+2000,80 Plus Bronze,Yes,264.99
+2000,80 Plus Silver,No,259.99
+2000,80 Plus Silver,Yes,269.99
+2000,80 Plus Gold,No,269.99
+2000,80 Plus Gold,Yes,279.99
+2000,80 Plus Platinum,No,289.99
+2000,80 Plus Platinum,Yes,299.99
+2000,80 Plus Titanium,No,309.99
+2000,80 Plus Titanium,Yes,319.99
